@@ -1,0 +1,7 @@
+.asset-cache
+_site
+.sass-cache
+.jekyll-metadata
+s3_website.yml
+.env
+.asset-cache

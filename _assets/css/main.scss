@@ -1,0 +1,33 @@
+@import "presets/reset";
+@import "foundation/foundation.min";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Variables
+@import "variables/colors";
+@import "variables/fonts";
+
+// Default settings
+@import "presets/defaults";
+
+// Partials
+@import "partials/header";
+@import "partials/introduction";
+@import "partials/meetups";
+@import "partials/where_is_it";
+@import "partials/where_to_stay";
+@import "partials/about_us";
+@import "partials/photos";
+@import "partials/whatsapp";
+@import "partials/footer";
+
+
+@media only screen
+and (max-width : 375px) {
+  h2 {
+    font-size: 30px;
+  }
+  .save-the-date h2:first-child {
+    font-weight: 300;
+  }
+}

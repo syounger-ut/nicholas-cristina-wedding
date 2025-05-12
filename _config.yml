@@ -1,0 +1,25 @@
+# Site settings
+title: Sam and Cora Wedding
+email: sam.younger@gmail.com
+description: >
+  This is a website for Sam and Cora's wedding 2018
+baseurl: ""
+url: "http://samandcora.com"
+github_username:  samyounger
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-assets
+include: ['_pages']
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - deploy.sh
+  - s3_website.yml
+  - README.md
+
+# Allows routes to be served without .html appended
+permalink: pretty

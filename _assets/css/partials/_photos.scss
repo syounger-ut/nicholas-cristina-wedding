@@ -1,0 +1,22 @@
+.photos {
+  .dropbox {
+    display: inline-block;
+    text-align: left;
+    a {
+      font-size: 25px;
+      font-weight: 300;
+    }
+  }
+
+  #slider {
+    max-height: 400px;
+    margin: 50px auto;
+    a { background-size: contain; }
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #slider {
+    display: none;
+  }
+}

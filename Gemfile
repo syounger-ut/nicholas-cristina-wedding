@@ -1,10 +1,10 @@
 source "https://rubygems.org"
-ruby "2.4.1"
+ruby "3.4.2"
 
-gem "jekyll", "3.4.1"
+gem "jekyll", "4.4.1"
 
 gem "dotenv-rails", groups: [:development, :test]
-gem "minima", "~> 2.0" # Jekyll theme
+gem "minima", "~> 2.5" # Jekyll theme
 gem "font-awesome-sass"
 
 group :jekyll_plugins do

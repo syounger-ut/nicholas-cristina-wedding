@@ -1,7 +1,5 @@
 # wedding
-A website for our wedding
-
-Published [HERE](http://samandcora.com)
+A wedding website
 
 ## Setup
 

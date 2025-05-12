@@ -1,25 +1,25 @@
-@import "presets/reset";
-@import "foundation/foundation.min";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+@use "./presets/reset";
+@use "./foundation/foundation.min";
+@use "font-awesome-sprockets";
+@use "font-awesome";
 
 // Variables
-@import "variables/colors";
-@import "variables/fonts";
+@use "./variables/colors";
+@use "./variables/fonts";
 
 // Default settings
-@import "presets/defaults";
+@use "./presets/defaults";
 
 // Partials
-@import "partials/header";
-@import "partials/introduction";
-@import "partials/meetups";
-@import "partials/where_is_it";
-@import "partials/where_to_stay";
-@import "partials/about_us";
-@import "partials/photos";
-@import "partials/whatsapp";
-@import "partials/footer";
+@use "./partials/header";
+@use "./partials/introduction";
+@use "./partials/meetups";
+@use "./partials/where_is_it";
+@use "./partials/where_to_stay";
+@use "./partials/about_us";
+@use "./partials/photos";
+@use "./partials/whatsapp";
+@use "./partials/footer";
 
 
 @media only screen

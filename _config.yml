@@ -10,9 +10,6 @@ github_username:  samyounger
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-assets
 include: ['_pages']
 exclude:
   - Gemfile
@@ -20,6 +17,14 @@ exclude:
   - deploy.sh
   - s3_website.yml
   - README.md
+sass:
+  style: compressed
 
 # Allows routes to be served without .html appended
 permalink: pretty
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true

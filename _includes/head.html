@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" type="image/png" href="/assets/ring.png"/>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/ring.png"/>
   <title>
     {% if page.title %} {{ page.title }}
     {% else %} {{ site.title }}
@@ -10,8 +10,7 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700" rel="stylesheet">
-  {% raw %}
-  {% css main -%}
-  {% js main -%}
-  {% endraw %}
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/main.js"></script>
 </head>

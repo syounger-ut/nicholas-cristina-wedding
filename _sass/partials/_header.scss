@@ -12,27 +12,35 @@ header {
   .menu {
     background: rgba(lighten($primary-color-light, 20%), 0.5);
   }
-  h1 {
+  .title {
+    background-color: rgba(lighten($primary-color-light, 50%), 0.5);
     position: absolute;
     width: 100%;
+    top: 10%;
+    box-shadow: 0 30px 40px $font-color;
+  }
+
+  h1 {
     cursor: default;
     text-align: center;
     font-size: 100px;
     font-family: $font-stack;
-    font-weight: 100;
-    top: 50%;
+    font-weight: 200;
     text-transform: uppercase;
     margin: 0;
-    color: lighten($primary-color-light, 20%);
+    color: $font-color;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 415px) {
 
   header {
-    background-attachment:initial;
+    background-attachment: initial;
+    .title {
+      top: 0%;
+    }
     h1 {
-      font-size: 60px;
+      font-size: 40px;
     }
   }
 

@@ -49,3 +49,13 @@ p::selection, a::selection, img::selection {
 a:active, a:focus, a:hover {
   color: $primary-color-light;
 }
+
+.section {
+  div:first-child {
+    margin: 10px 50px;
+    h3 {
+      font-size: 25px;
+      border-bottom: none;
+    }
+  }
+}

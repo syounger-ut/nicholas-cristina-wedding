@@ -1,15 +1,19 @@
 title: Wedding Menu
 form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqUklBuZetS7YUMLduqM8DnxKm3V_k9jpJHGVaRBPTzoCR6w/viewform?usp=header " target="_blank" rel="noopener noreferrer">Please let us know your menu choices</a>
 content: |
-  <ul>
-    <li>Starter</li>
-    <li>Option 1: Chicken thighs, shaved fennel, capers, harissa, black olive, white balsamic, parsley</li>
-    <li>Option 2: Charred mackerel fillet, Jersey royals, padrón pepper, spring onion, leek ash emulsion</li>
+    <p>Starter</p>
+    <ul>
+      <li>Option 1: Chicken thighs, shaved fennel, capers, harissa, black olive, white balsamic, parsley</li>
+      <li>Option 2: Charred mackerel fillet, Jersey royals, padrón pepper, spring onion, leek ash emulsion</li>
+    </ul>
 
-    <li>Main</li>
-    <li>Option 1: Hake fillet, British-grown lentils, baby leeks, slow-roast cherry tomato, Romesco sauce</li>
-    <li>Option 2: Slow-braised lamb shoulder, grilled tender stem, crushed peas, potatoes, salsa Verde, preserved lemon purée</li>
+    <p>Main</p>
+    <ul>
+      <li>Option 1: Hake fillet, British-grown lentils, baby leeks, slow-roast cherry tomato, Romesco sauce</li>
+      <li>Option 2: Slow-braised lamb shoulder, grilled tender stem, crushed peas, potatoes, salsa Verde, preserved lemon purée</li>
+    </ul>
 
-    <li>Dessert</li>
-    <li>Chilled chocolate tart, salted caramel, toasted hazelnut, honeycomb, red vein sorrel (vg)</li>
-  </ul>
+    <p>Dessert</p>
+    <ul>
+      <li>Chilled chocolate tart, salted caramel, toasted hazelnut, honeycomb, red vein sorrel (vg)</li>
+    </ul>

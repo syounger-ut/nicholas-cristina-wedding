@@ -1,21 +1,25 @@
 <div class="section">
-  <div>
-    <h2>{{ site.data.i18n.en.photos.title }}</h2>
+  <div class="en">
+    <div>
+      <h2>{{ site.data.i18n.en.photos.title }}</h2>
+    </div>
+
+    {{ site.data.i18n.en.photos.content }}
+
+    <div class="dropbox">
+      {{ site.data.i18n.en.photos.storage-link }}
+    </div>
   </div>
 
-  {{ site.data.i18n.en.photos.content }}
+  <div class="es">
+    <div>
+      <h2>{{ site.data.i18n.es.photos.title }}</h2>
+    </div>
 
-  <div class="dropbox">
-    {{ site.data.i18n.en.photos.storage-link }}
-  </div>
+    {{ site.data.i18n.es.photos.content }}
 
-  <div>
-    <h2>{{ site.data.i18n.es.photos.title }}</h2>
-  </div>
-
-  {{ site.data.i18n.es.photos.content }}
-
-  <div class="dropbox">
-    {{ site.data.i18n.es.photos.storage-link }}
+    <div class="dropbox">
+      {{ site.data.i18n.es.photos.storage-link }}
+    </div>
   </div>
 </div>

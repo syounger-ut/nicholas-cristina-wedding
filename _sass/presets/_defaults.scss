@@ -37,7 +37,7 @@ a {
 }
 
 .main {
-  text-align: center;
+  text-align: left;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -58,4 +58,17 @@ a:active, a:focus, a:hover {
       border-bottom: none;
     }
   }
+}
+
+.en {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: lighten($primary-color, 35%);
+}
+
+.es {
+  border: 1px solid $primary-color;
+  border-radius: 20px;
+  padding: 20px;
 }
